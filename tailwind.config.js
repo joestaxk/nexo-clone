@@ -16,8 +16,8 @@ export default {
         "primaryBlue": "#1e4dd8",
         "subText": "#4a5066"
        },
-       screen: {
-        "lg": "1088px"
+       screens: {
+        "bigLg": "1204px"
        }
     },
   },

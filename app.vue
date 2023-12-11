@@ -1,10 +1,11 @@
 <template>
   <CommonHeader />
   <CommonHeroSection />
+  <CommonMarket />
   <CommonSlideSection />
   <CommonSecurity />
-  <CommonFeatured />
-  <CommonTrusted />
+  <!-- <CommonFeatured /> -->
+  <!-- <CommonTrusted /> -->
   <CommonPortfolio />
   <CommonFooter />
 </template>

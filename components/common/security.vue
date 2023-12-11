@@ -1,12 +1,12 @@
 <template>
     <section class="flex justify-center">
-        <div class="w-[1088px] py-[5rem]">
-            <div class="flex justify-between items-center">
+        <div class="bigLg:w-[1088px] w-full bigLg:px-0 sm:px-5 px-3 md:py-[5rem] py-[2rem]">
+            <div class="flex justify-between items-center lg:flex-row flex-col gap-10">
                 <div>
-                    <h1 class="text-[2.35rem] font-medium">Security-First Approach </h1>
+                    <h1 class="lg:text-[2.15rem] md:text-[1.75rem] text-[1.45rem] font-medium">Security-First Approach </h1>
                 </div>
 
-                <div class="w-[550px] relative">
+                <div class="sm:w-[550px] w-full relative placeholder sm:block flex items-center gap-5 flex-col">
                     <div class="p-5 rounded-2xl w-[300px] space-y-5 border border-white" style="background: linear-gradient(128.95deg, rgba(255, 255, 255, 0.5) 0%, rgba(201, 212, 246, 0.22) 100.09%);
                                 box-shadow: -8.32698px 10.4087px 36.4305px rgba(61, 101, 174, 0.2);
                                 backdrop-filter: blur(29.9976px)
@@ -19,7 +19,7 @@
                         </div>
                     </div>
 
-                    <div class="absolute -bottom-14  gap-5 right-0 z-10 w-[300px] p-5 rounded-2xl border border-white flex items-center" style="background: linear-gradient(128.95deg, rgba(255, 255, 255, 0.5) 0%, rgba(201, 212, 246, 0.22) 100.09%);
+                    <div class="sm:absolute sm:-bottom-14  gap-5 right-0 z-10 w-[300px] b p-5 rounded-2xl border border-white flex items-center" style="background: linear-gradient(128.95deg, rgba(255, 255, 255, 0.5) 0%, rgba(201, 212, 246, 0.22) 100.09%);
                                 box-shadow: -8.32698px 10.4087px 36.4305px rgba(61, 101, 174, 0.2);
                                 backdrop-filter: blur(29.9976px);">
                         <img alt="" loading="lazy" src="~/assets/img/logo-soc-2.svg" width="68" height="69">
@@ -32,13 +32,13 @@
                 </div>
             </div>
 
-            <div class="flex justify-between item-center pt-[10rem] divide-x">
+            <div class="flex justify-between item-center md:pt-[10rem] md:flex-row flex-col gap-10 pt-[5rem] md:divide-x">
                 <div class="space-y-3">
-                    <h2 class="text-[1.5rem] font-semibold"> Sustainable Model </h2>
-                    <p class="text-[1.1rem] text-subText">Our proven real-time risk engine and strict collateralization requirements ensure we generate earnings in a safe way. </p>
-                    <button class="flex items-center gap-3 text-[18px] font-semibold">
+                    <h2 class="md:text-[1.5rem] text-[1.2rem] font-semibold"> Sustainable Model </h2>
+                    <p class="md:text-[1.1rem] text-[1rem] font-light  text-subText">Our proven real-time risk engine and strict collateralization requirements ensure we generate earnings in a safe way. </p>
+                    <button class="flex items-center gap-3 md:text-[18px] text-[15px] font-medium">
                         <span>Learn More</span>
-                        <span class="w-8 h-8 rounded-full flex items-center justify-center bg-primaryBlue text-white">
+                        <span class="md:w-8 w-6 md:h-8 h-6 rounded-full flex items-center justify-center bg-primaryBlue text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
                                 viewBox="0 0 448 512">
                                 <path
@@ -48,12 +48,12 @@
                         </span>
                     </button>
                 </div>
-                <div class="space-y-3 pl-10">
-                    <h2 class="text-[1.5rem] font-semibold"> Sustainable Model </h2>
-                    <p class="text-[1.1rem] text-subText">Our proven real-time risk engine and strict collateralization requirements ensure we generate earnings in a safe way. </p>
-                    <button class="flex items-center gap-3 text-[18px] font-semibold">
+                <div class="space-y-3 md:pl-10">
+                    <h2 class="md:text-[1.5rem] text-[1.2rem] font-semibold"> Custodial Insurance </h2>
+                    <p class="md:text-[1.1rem] text-[1rem] font-light  text-subText">All digital assets benefit from insurance from our custody partners such as Ledger Vault and Bakkt. </p>
+                    <button class="flex items-center gap-3 md:text-[18px] text-[15px] font-medium">
                         <span>Learn More</span>
-                        <span class="w-8 h-8 rounded-full flex items-center justify-center bg-primaryBlue text-white">
+                        <span class="md:w-8 w-6 md:h-8 h-6 rounded-full flex items-center justify-center bg-primaryBlue text-white">
                             <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor"
                                 viewBox="0 0 448 512">
                                 <path
