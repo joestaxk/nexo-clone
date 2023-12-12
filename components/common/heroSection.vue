@@ -1,9 +1,9 @@
 <template>
     <header
-        class="relative bg-heroBg md:min-h-[710px] min-h-[550px] bg-[url('~/assets/img/gradientHero.svg')] bg-no-repeat bg-cover bg-left-bottom flex justify-center z-1">
+        class="relative bg-heroBg md:min-h-[710px] min-h-[700px] bg-[url('~/assets/img/gradientHero.svg')] bg-no-repeat bg-cover bg-left-bottom flex justify-center z-1">
         <img src="~/assets/img/arrows.svg" class="lg:w-[95%] min-w-full absolute bottom-0 object-cover" alt="">
 
-        <div class="bigLg:w-[1088px] w-full sm:px-5 px-3 md:h-[700px] relative flex justify-between z-10 lg:mt-[60px] items-center">
+        <div class="bigLg:w-[1088px] w-full sm:px-5 px-3 md:h-[700px] h-full md:mt-0 mt-[6rem] relative flex md:justify-between md:flex-row justify-center md:gap-0 gap-10 flex-col z-10 lg:mt-[60px] items-center">
             <div class="text-white bigLg:w-[800px] lg:w-[700px] md:w-[450px] w-full lg:space-y-3 space-y-4">
                 <h1 class="font-bold bigLg:text-[3.6rem] sm:text-[3rem] text-[2.5rem] lg:leading-tight flex lg:gap-3 gap-2 leading-[1] flex-wrap">
                     <span class="h1_1">Buy</span>
@@ -75,9 +75,10 @@
                     </div>
                 </div>
             </div>
-            <div class="">
+            <div class="md:block flex justify-center md:w-auto w-full">
                 <picture>
-                    <img src="~/assets/img/hero-phone.webp" class="bigLg:h-[600px] h-[80%]  md:block hidden absolute right-0 bottom-0" alt="">
+                    <img src="~/assets/img/hero-phone.webp" class="bigLg:h-[600px] h-[80%]  md:block hidden absolute right-0 bottom-10" alt="">
+                    <img src="~/assets/img/halfphone.webp" class="h-[100%] md:hidden block bottom-10" alt="">
                 </picture>
             </div>
         </div>
